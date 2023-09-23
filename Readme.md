@@ -55,7 +55,9 @@ python3 bin/trainer.py --max-duration 40 --filter-min-duration 0.5 --filter-max-
       --num-epochs 50 --start-epoch ${start-epoch} --start-batch 0 --accumulate-grad-steps 4 \
       --exp-dir ${exp_dir}
 ```
+![train](./docs/images/train.png)
 ### Inference
+- NAR Inferences are inside ./infer
 ```
 export model-name="best-valid-loss"
 export prompt_annotation="KNOT one point one five miles per hour."
@@ -68,4 +70,7 @@ python3 bin/infer.py --output-dir infer/demos \
     --text "To get up and running quickly just follow the steps below." \
     --checkpoint=${exp_dir}/{model-name}.pt
 ```
-![train](./docs/images/train.png)
+
+
+
+

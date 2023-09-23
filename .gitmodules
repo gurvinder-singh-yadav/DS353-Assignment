@@ -1,0 +1,3 @@
+[submodule "vall-e"]
+	path = vall-e
+	url = git@github.com:lifeiteng/vall-e.git

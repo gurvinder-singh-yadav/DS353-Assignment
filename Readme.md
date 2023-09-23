@@ -57,7 +57,7 @@ python3 bin/trainer.py --max-duration 40 --filter-min-duration 0.5 --filter-max-
 ```
 ![train](./docs/images/train.png)
 ### Inference
-- NAR Inferences are inside ./infer
+- NAR Inferences are inside [Infer](./infer)
 ```
 export model-name="best-valid-loss"
 export prompt_annotation="KNOT one point one five miles per hour."

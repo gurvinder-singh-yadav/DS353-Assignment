@@ -71,6 +71,7 @@ python3 bin/infer.py --output-dir infer/demos \
     --checkpoint=${exp_dir}/{model-name}.pt
 ```
 
-
+- The following experiment has been run on [Vast.ai](https://cloud.vast.ai/create/) instance with Nvidia 3090 GPU with 24GB VRAM and 32GB RAM
+- To Replicate the experiment create a docker container using the [Dockerfile](Dockerfile) and use it to spin up and instance at vast.ai cloud
 
 

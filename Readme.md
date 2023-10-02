@@ -74,4 +74,9 @@ python3 bin/infer.py --output-dir infer/demos \
 - The following experiment has been run on [Vast.ai](https://cloud.vast.ai/create/) instance with Nvidia 3090 GPU with 24GB VRAM and 32GB RAM
 - To Replicate the experiment create a docker container using the [Dockerfile](Dockerfile) and use it to spin up and instance at vast.ai cloud
 
-
+### Team Members
+- Gurvinder Singh Yadav - 20bds025
+- Ankit Kumar - 20bds009
+- Shubham Sharma - 20bds051
+- Rohit Khetan - 20bcs114
+- Harshita NG - 20bcs055
